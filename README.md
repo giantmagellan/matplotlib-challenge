@@ -1,1 +1,7 @@
-# matplotlib-challenge
+# 3 observations of the dataset
+
+1. The 'Timepoint' column is missing units and is therefore unclear as to the overall scale of the study that is being done. It is unclear whether we are looking at rapid changes or slower, steady changes over a longer period of time. This information only comes to light when we view the given bar graph. Additionally, the dataset does not account the amount of treatment applied and how often.
+
+2. The tumor volume for each subject in its initial stage is 45.00 mm^3 for each drug treatment. Though statistically possible, I am unconvinced that each mouse had a tumor of the exact same volume, which indicates a potential flaw in the initial measurements of the tumors. We can mitigate this discrepancy in the data acquisition process by focusing our study on the volume changes of the tumors and not so much on the actual volumes themselves. This limits us from discovering whether the size of the tumor has any negative effects on the applied treatment. 
+
+3. I compare the metastasis data and survival rate of the Placebo treatment to that of the Infubinol treatment. We see a greater spread from the tumor's origin in the Placebo treatment than in the Infubinol treatment by approximately 1.25 mm^3. It shows that Placebo metastatic sites are steadily increasing while Infubinol metastatic sites are showing signs of stabilization. Additionally, subjects treated with Infubinol have approximately a 10% higher mortality rate than subjects treated with Placebo. This may indicate Infubinol is more harmful as the duration of treatment increases than is benificial. Furthermore, the duration of the tests should be increased and to further study the effects of Infubinol vs Placebo. 
